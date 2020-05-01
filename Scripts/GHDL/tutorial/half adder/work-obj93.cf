@@ -1,0 +1,7 @@
+v 3
+file . "ha_tb.vhdl" "20200501050752.000" "20200501020755.362":
+  entity ha_tb at 1( 0) + 0 on 13;
+  architecture test of ha_tb at 9( 371) + 0 on 14;
+file . "ha.vhdl" "20200501044400.000" "20200501015904.012":
+  entity ha at 1( 0) + 0 on 11;
+  architecture behave of ha at 15( 186) + 0 on 12;

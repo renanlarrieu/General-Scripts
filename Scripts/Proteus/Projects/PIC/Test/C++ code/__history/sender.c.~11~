@@ -1,0 +1,21 @@
+#include <16f877a.h>
+#fuses hs,nowdt
+#use delay (clock=16M)
+
+void main()
+{
+    set_tris_b(0b0);
+    output_low(pin_b0);
+    
+    while(true)
+    {
+        output_high(pin_b0);
+        delay_ms(10);
+        output_low(pin_b0);
+        delay_ms(10);
+    
+    
+    
+    }
+
+}

@@ -1,0 +1,33 @@
+TUTORIAL SIMULAÇÃO UTILIZANDO GHDL + GTKWAVE
+
+fonte:https://www.youtube.com/watch?v=H2GyAIYwZbw
+
+cmd windows - escrever: ghdl --help para ver os comandos
+
+1. Cria-se o arquivo nomedoarquivo.vhdl e o salva em uma pasta;
+
+2. Abrir o cmd do windows;
+
+3. Entrar no diretório do da pasta em que foi salvo o arquivo .vhdl;
+
+4. Escrever 'ghdl -s nomedoarquivo.vhdl' no diretório selecionado para verificar se há algum erro de sintaxe no código descrito, se não houverem mensagens, não há nenhum erro, mas caso haja, basta identificar o erro e corrigir no arquivo nomedoarquivo.vhdl;
+
+5. Cria-se um arquivo testbench para simular o hardware nomedoarquivo.vhdl salvo (É importante ressaltar que o arquivo testebench é do formato .vhdl também, e além de seu código ser muito parecido com o nomedoarquivo.vhdl, ele possui alguns parâmetros a mais, contando com mais especificações para a simulação). Usualmente, nomea-se o arquivo testebench como nomedoarquivo_tb.vhdl, ou seja, acrescentando '_tb' do nome original;
+
+6. Analisa-se se há algum erro no arquivo nomedoarquivo.vhdl digitando no cmd 'ghdl -a nomedoarquivo.vhdl', caso exiba algum erro, conserte no código fonte, caso exiba NADA, seu arquivo está correto;
+
+7. Repete-se o procedimento acima para o arquivo nomedoarquivo_tb.vhdl, escrevendo no cmd 'ghdl -a nomedoarquivo_tb.vhdl', sobre as mesmas condições;
+
+8. Para elaborar o arquivo testebench indica-se ao GHDL qual unidade (não um arquivo) se quer elaborar, e para isto escreve-se no cmd 'ghdl -e nomedoarquivo_tb', sem formato no final do nome do arquivo, pois apenas indica a unidade elaborada;
+
+9. Para executar a simulação do testebench elaborado no cmd, escrever no cmd 'ghdl -r nomedoarquivo_tb', também sem formato do arquivo;
+
+10. Terminadas as checagens de todos os tipos, cria-se de fato a simulação: Para isto, escreva no cmd no mesmo diretório de todo o projeto 'ghdl -r nomedoarquivo_tb --vcd=nomedoarquivo.vcd';
+
+11. Para visualizar a simulação que acabara de ser feita, digita-se no cmd, no mesmo diretório, o comando 'gtkwave nomedoarquivo.vcd', e então abrirá uma janela contendo a simulação;
+
+12. Arrasta-se os sinais criados para a caixa 'Signals', ao lado esquerdo da plotagem das ondas;
+
+13. Para visualizar os sinais é preciso diminuir o zoom da parte direita da janela;
+
+14. FIM.

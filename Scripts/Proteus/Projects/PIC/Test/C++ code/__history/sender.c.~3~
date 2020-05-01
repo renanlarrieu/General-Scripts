@@ -1,0 +1,21 @@
+
+#fuses hs,nowdt
+#include <16f877a.h>
+#use delay (clock=20M)
+void setup()
+{
+  Wire.begin();              // Configura o barramento I2C
+}
+
+byte x = 4;                  // Variável para transmitir
+
+void loop()
+{
+  Wire.beginTransmission(15); // Transmite para o dispositivo número 15
+  Wire.write("ARM ");         // Envia 4 bytes
+  Wire.write(x);              // Envia 1 byte
+  Wire.endTransmission();     // Para transmissão
+
+  x++;                        // Incrementa x
+  delay(100);
+}

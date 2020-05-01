@@ -1,0 +1,39 @@
+# Reading C:/Program Files/modelsim_ase/tcl/vsim/pref.tcl 
+# do my_latch_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Program Files\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Program Files\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Renan/Scripts/Altera/my_latch/my_latch.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity my_latch
+# -- Compiling architecture hardware of my_latch
+# 
+vsim -voptargs=+acc work.my_latch
+# vsim -voptargs=+acc work.my_latch 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.my_latch(hardware)
+force -freeze sim:/my_latch/S 1 0, 0 {5 ps} -r 10
+add wave -position insertpoint  \
+sim:/my_latch/S
+wave create -driver freeze -pattern clock -initialvalue U -period 10ns -dutycycle 50 -starttime 0ns -endtime 1000ns sim:/my_latch/S
+wave create -driver freeze -pattern clock -initialvalue U -period 20ns -dutycycle 50 -starttime 0ns -endtime 1000ns sim:/my_latch/R
+add wave -position insertpoint  \
+sim:/my_latch/Q
+add wave -position insertpoint  \
+sim:/my_latch/Qn
+run -all
+add wave -position 0 -format Logic -height 17 -editable 2 Edit:/my_latch/R
+add wave -position 1 -format Logic -height 17 -editable 2 Edit:/my_latch/S
+wave editwrite -file C:/Users/Renan/Scripts/Altera/my_latch/simulation/modelsim/my_latch.do

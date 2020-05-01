@@ -1,0 +1,12 @@
+vsim cycloneii.cycloneii_and1(altvital)
+# vsim cycloneii.cycloneii_and1(altvital) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Load canceled
+add wave -position insertpoint  \
+sim:/std_logic_1164/not_table
