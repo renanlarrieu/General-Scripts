@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/You Tube - Meu Canal/ZZZ FPGA curso/FPGA_003_Sinais_e_Circuito_Combinacional/FPGA003_WR_Files/circuito_combinacional.vhd
+source_file = 1, C:/You Tube - Meu Canal/ZZZ FPGA curso/FPGA_003_Sinais_e_Circuito_Combinacional/FPGA003_WR_Files/Waveform.vwf
+source_file = 1, C:/You Tube - Meu Canal/ZZZ FPGA curso/FPGA_003_Sinais_e_Circuito_Combinacional/FPGA003_WR_Files/db/circuito_combinacional.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = circuito_combinacional
+instance = comp, \C~I , C, circuito_combinacional, 1
+instance = comp, \B~I , B, circuito_combinacional, 1
+instance = comp, \A~I , A, circuito_combinacional, 1
+instance = comp, \O~0 , O~0, circuito_combinacional, 1
+instance = comp, \O~I , O, circuito_combinacional, 1

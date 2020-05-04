@@ -1,7 +1,7 @@
 v 3
-file . "my_latch.vhdl" "20200501060022.000" "20200501031729.476":
-  entity my_latch at 4( 83) + 0 on 19;
-  architecture hardware of my_latch at 19( 525) + 0 on 20;
-file . "my_latch_tb.vhdl" "20200501061718.000" "20200501031725.871":
-  entity my_latch_tb at 1( 0) + 0 on 17;
-  architecture test of my_latch_tb at 8( 94) + 0 on 18;
+file . "my_latch.vhdl" "20200501060022.000" "20200503012417.410":
+  entity my_latch at 4( 83) + 0 on 25;
+  architecture hardware of my_latch at 19( 525) + 0 on 26;
+file . "my_latch_tb.vhdl" "20200501061718.000" "20200503012417.457":
+  entity my_latch_tb at 1( 0) + 0 on 27;
+  architecture test of my_latch_tb at 8( 94) + 0 on 28;

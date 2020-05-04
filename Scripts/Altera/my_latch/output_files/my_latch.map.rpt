@@ -1,5 +1,5 @@
 Analysis & Synthesis report for my_latch
-Thu Apr 30 05:03:26 2020
+Sat May 02 22:41:36 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 30 05:03:26 2020            ;
+; Analysis & Synthesis Status        ; Successful - Sat May 02 22:41:36 2020            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; my_latch                                         ;
 ; Top-level Entity Name              ; my_latch                                         ;
@@ -165,13 +165,13 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                               ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                        ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
-; my_latch.vhd                     ; yes             ; User VHDL File  ; C:/Users/Renan/Scripts/Altera/my_latch/my_latch.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                               ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                        ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
+; my_latch.vhd                     ; yes             ; User VHDL File  ; C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/Altera/my_latch/my_latch.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -228,7 +228,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Apr 30 05:03:23 2020
+    Info: Processing started: Sat May 02 22:41:32 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off my_latch -c my_latch
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file my_latch.vhd
@@ -250,9 +250,9 @@ Info (21057): Implemented 6 device resources after synthesis - the final resourc
     Info (21060): Implemented 1 bidirectional pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4695 megabytes
-    Info: Processing ended: Thu Apr 30 05:03:26 2020
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 4686 megabytes
+    Info: Processing ended: Sat May 02 22:41:36 2020
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 
 
