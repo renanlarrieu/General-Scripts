@@ -25,6 +25,8 @@ architecture hardware of flipflop_sinc is
 
 begin
 
+
+
 --processamento de primeiro grau
 
 nandRCLK <= R NAND CLK;
@@ -33,9 +35,9 @@ nandSCLK <= S NAND CLK;
 
 -- processamento de segundo grau
 
-nandRCLKQ <= nandRCLK NAND nandSCLKQbarra;
+nandRCLKQ <= nandRCLK NAND Q;
 
-nandSCLKQbarra <= nandSCLK NAND nandRCLKQ;
+nandSCLKQbarra <= nandSCLK NAND Qbarra;
 
 -- saídas
 

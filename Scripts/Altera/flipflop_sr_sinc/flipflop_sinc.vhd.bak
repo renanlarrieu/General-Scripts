@@ -5,7 +5,7 @@ entity flipflop_sinc is port
 (	    --entradas
 		S: in std_ulogic;
 		R: in std_ulogic;
-		CLK: in std_ulogic;
+		CLK: in std_ulogic
 		-- processamento de primeiro grau
 		nandRCLK: inout std_ulogic;
 		nandSCLK: inout std_ulogic;
@@ -33,9 +33,9 @@ nandSCLK <= S NAND CLK;
 
 -- processamento de segundo grau
 
-nandRCLKQ <= nandRCLK NAND nandSCLKQbarra;
+nandRCLKQ <= nandRCLK NAND Q;
 
-nandSCLKQbarra <= nandSCLK NAND nandRCLKQ;
+nandSCLKQbarra <= nandSCLK NAND Qbarra;
 
 -- saídas
 

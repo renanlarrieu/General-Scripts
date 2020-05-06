@@ -1,7 +1,7 @@
 v 3
-file . "multiplexador_2_entradas_tb.vhdl" "20200503023432.000" "20200503012123.455":
-  entity multiplexador_2_entradas_tb at 1( 0) + 0 on 53;
-  architecture test of multiplexador_2_entradas_tb at 9( 415) + 0 on 54;
-file . "multiplexador_2_entradas.vhdl" "20200503021834.000" "20200503012123.402":
-  entity multiplexador_2_entradas at 1( 0) + 0 on 51;
-  architecture hardware of multiplexador_2_entradas at 20( 337) + 0 on 52;
+file . "multiplexador_2_entradas_tb.vhdl" "20200505021724.000" "20200505001849.998":
+  entity multiplexador_2_entradas_tb at 1( 0) + 0 on 57;
+  architecture test of multiplexador_2_entradas_tb at 9( 407) + 0 on 58;
+file . "multiplexador_2_entradas.vhdl" "20200503021834.000" "20200505001849.948":
+  entity multiplexador_2_entradas at 1( 0) + 0 on 55;
+  architecture hardware of multiplexador_2_entradas at 20( 337) + 0 on 56;

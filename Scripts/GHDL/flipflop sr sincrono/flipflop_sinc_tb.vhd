@@ -1,17 +1,17 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity flipflop_sinc_tb is port
-(
+entity flipflop_sinc_tb is 
 
-);
+end flipflop_sinc_tb;
 
 architecture test of flipflop_sinc_tb is 
-    component flipflop_sinc_tb
+    component flipflop_sinc
+	        port
 			(
 			S: in std_ulogic;
 			R: in std_ulogic;
-			CLK: in std_ulogic
+			CLK: in std_ulogic;
 			-- processamento de primeiro grau
 			nandRCLK: inout std_ulogic;
 			nandSCLK: inout std_ulogic;
@@ -24,6 +24,7 @@ architecture test of flipflop_sinc_tb is
 			
 			);
 	end component;
+	
 	signal S,R,CLK,nandRCLK,nandSCLK,nandRCLKQ,nandSCLKQbarra,Q,Qbarra : std_ulogic;
 	
 begin
@@ -33,49 +34,49 @@ begin
 	
 	process begin
 	
-		R<='X';
-		S<='X';
+		--R<='X';
+		--S<='X';
 		--CLK<='X';
-		wait for 1 ns;
+		--wait for 1 ns;
 		
 		CLK<='1';
-		wait for 0.5 ns;
-		R<='1';
-		--S<='0';
 		wait for 1 ns;
-		CLK<='0';
-		wait for 0.5 ns;
-		
-		CLK<='1';
-		wait for 0.5 ns;
-		--R<='0';
 		S<='1';
-		wait for 1 ns;
-		CLK<='1';
-		wait for 0.5 ns;
-		
-		CLK<='0';
-		wait for 0.5 ns;
-		R<='0';
 		--S<='0';
 		wait for 1 ns;
-		CLK<='1';
-		wait for 0.5 ns;
-		
 		CLK<='0';
-		wait for 0.5 ns;
+		wait for 1 ns;
+		
+		CLK<='1';
+		wait for 1 ns;
 		--R<='0';
 		S<='0';
 		wait for 1 ns;
 		CLK<='1';
-		wait for 0.5 ns;
+		wait for 1 ns;
+		
+		CLK<='0';
+		wait for 1 ns;
+		R<='1';
+		--S<='0';
+		wait for 1 ns;
+		CLK<='1';
+		wait for 1 ns;
+		
+		CLK<='0';
+		wait for 1 ns;
+		--R<='0';
+		S<='1';
+		wait for 1 ns;
+		CLK<='1';
+		wait for 1 ns;
 		
 		
 		assert false report "Fim do teste";
 		wait;
 	
 	
-	end process
+	end process;
 	
 end test;
 	
