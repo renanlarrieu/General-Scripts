@@ -31,3 +31,5 @@ cmd windows - escrever: ghdl --help para ver os comandos
 13. Para visualizar os sinais é preciso diminuir o zoom da parte direita da janela;
 
 14. FIM.
+
+

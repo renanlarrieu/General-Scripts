@@ -3,18 +3,18 @@ use IEEE.std_logic_1164.all;
 
 entity flipflop_D is port
 (	    --entradas
-		D: in std_ulogic;
-		C: in std_ulogic;
+	 D: in bit;
+	 C: in bit;
 
-	    not1: inout std_ulogic;
-		n1: inout std_ulogic;
-		n2: inout std_ulogic;
-		n3 : inout std_ulogic;
-		n4: inout std_ulogic;
+	 not1: inout bit;
+	 n1: inout bit;
+	 n2: inout bit;
+	 n3 : inout bit;
+	 n4: inout bit;
 		
 		-- saídas
-		Q : out std_ulogic;
-		Qbarra :out std_ulogic
+	 Q : out bit;
+	 Qbarra :out bit
 
 
 

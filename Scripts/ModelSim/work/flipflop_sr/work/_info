@@ -29,7 +29,6 @@ DEx4 work 13 flipflop_sinc 0 22 S=hJ7FAAgzn^I^h1^@JaI1
 l26
 L24
 VGWICUEH;5Afd^4lee9GPP1
-!s100 6K;z<92V:ib1S4l0nWTeV1
 R6
 32
 R7
@@ -37,6 +36,7 @@ R8
 R9
 R10
 R11
+!s100 6K;z<92V:ib1S4l0nWTeV1
 !i10b 1
 Eflipflop_sinc_tb
 Z12 w1588653616
@@ -48,28 +48,106 @@ Z14 FC:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop sr sin
 l0
 L4
 V2a62aZPW^BeSPD<5z8zjd1
-!s100 hSHL4@2gHgD4RbEd<Z8b32
 R6
 32
-!i10b 1
 Z15 !s108 1588653653.112000
 Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop sr sincrono/flipflop_sinc_tb.vhd|
 Z17 !s107 C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop sr sincrono/flipflop_sinc_tb.vhd|
 R10
 R11
+!s100 hSHL4@2gHgD4RbEd<Z8b32
+!i10b 1
 Atest
 R1
 R2
-Z18 DEx4 work 16 flipflop_sinc_tb 0 22 2a62aZPW^BeSPD<5z8zjd1
+DEx4 work 16 flipflop_sinc_tb 0 22 2a62aZPW^BeSPD<5z8zjd1
 l30
 L8
-Z19 VDR>iJF2eok;^]5h:oDNJ_3
-Z20 !s100 j`Be6H=Fh2HlkZl<LlM8F2
+VDR>iJF2eok;^]5h:oDNJ_3
 R6
 32
-!i10b 1
 R15
 R16
 R17
 R10
 R11
+!s100 j`Be6H=Fh2HlkZl<LlM8F2
+!i10b 1
+Esin_table
+Z18 w1588978696
+Z19 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z20 8C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave2/sine_wave2.vhd
+Z21 FC:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave2/sine_wave2.vhd
+l0
+L4
+VFFHDTb0I]LZEA`fGMdWQV3
+!s100 FY6eVnGlPV<z7J;cV9`i31
+R6
+32
+!i10b 1
+Z22 !s108 1588979125.177000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave2/sine_wave2.vhd|
+Z24 !s107 C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave2/sine_wave2.vhd|
+R10
+R11
+Artl
+R19
+R1
+R2
+DEx4 work 9 sin_table 0 22 FFHDTb0I]LZEA`fGMdWQV3
+l15
+L10
+VbdUKcVLhm1ab<>mQCUbXm0
+!s100 eg]Q0FlXLdPlP2Mmin@bj0
+R6
+32
+!i10b 1
+R22
+R23
+R24
+R10
+R11
+Ewrite_table
+Z25 w1588977926
+Z26 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z27 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R19
+R1
+R2
+R3
+Z28 8C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave/sine_wave.vhd
+Z29 FC:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave/sine_wave.vhd
+l0
+L8
+V^ZfW^CmdgCL5XiFUVBAhU0
+R6
+32
+Z30 !s108 1588978000.740000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave/sine_wave.vhd|
+Z32 !s107 C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/ModelSim/work/sine_wave/sine_wave.vhd|
+R10
+R11
+!s100 oZGnM5f[Mcn6E?2;MCQYG1
+!i10b 1
+Abehav
+R26
+R27
+R19
+R1
+R2
+DEx4 work 11 write_table 0 22 ^ZfW^CmdgCL5XiFUVBAhU0
+l45
+L10
+VGUDaGW6BzlI=kNb[@[gD03
+R6
+32
+R30
+R31
+R32
+R10
+R11
+!s100 i7ZEUanTFA:8KjF3W@9]Y3
+!i10b 1
