@@ -1,0 +1,864 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5432
+License: Customer
+
+Current time: 	Fri May 15 21:56:36 BRT 2020
+Time zone: 	Brasilia Standard Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 414 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Renan
+User home directory: C:/Users/Renan
+User working directory: C:/Users/Renan/Desktop/tensao_senoidal
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Renan/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Renan/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Renan/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Renan/Desktop/tensao_senoidal/vivado.log
+Vivado journal file location: 	C:/Users/Renan/Desktop/tensao_senoidal/vivado.jou
+Engine tmp dir: 	C:/Users/Renan/Desktop/tensao_senoidal/.Xil/Vivado-5432-Renan-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 557 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2097 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 77 MB (+77870kb) [00:00:26]
+// [Engine Memory]: 557 MB (+432286kb) [00:00:26]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Renan\Desktop\tensao_senoidal\tensao_senoidal.xpr. Version: Vivado v2018.3 
+// WARNING: HEventQueue.dispatchEvent() is taking  1364 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 569 MB. GUI used memory: 46 MB. Current time: 5/15/20, 9:56:37 PM BRT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 46 MB. Current time: 5/15/20, 9:56:52 PM BRT
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 97 MB (+16870kb) [00:01:02]
+// [Engine Memory]: 708 MB (+129173kb) [00:01:02]
+// WARNING: HEventQueue.dispatchEvent() is taking  4328 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 51 MB. Current time: 5/15/20, 9:57:15 PM BRT
+// Project name: tensao_senoidal; location: C:/Users/Renan/Desktop/tensao_senoidal; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 743.848 ; gain = 147.809 
+dismissDialog("Open Project"); // bx (cp)
+// PAPropertyPanels.initPanels (tensao_senoidal.vhd) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tensao_senoidal(Behavioral) (tensao_senoidal.vhd)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tensao_senoidal(Behavioral) (tensao_senoidal.vhd)]", 1, false, false, false, false, false, true); // B (D, cp) - Double Click
+// [Engine Memory]: 745 MB (+1614kb) [00:01:13]
+selectCodeEditor("tensao_senoidal.vhd", 384, 370); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 237, 371); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 124, 364); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 47, 365); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 66, 364); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 78, 361); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 69, 362); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("tensao_senoidal.vhd", 360, 377); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 321, 370); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// [GUI Memory]: 104 MB (+3209kb) [00:02:14]
+// TclEventType: DG_GRAPH_STALE
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'tensao_senoidal' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-XSim-101] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tensao_senoidal_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.srcs/sources_1/new/tensao_senoidal.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tensao_senoidal' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot tensao_senoidal_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2018.3 (64-bit)   **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018   **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim/xsim.dir/tensao_senoidal_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Fri May 15 21:58:38 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 765.426 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tensao_senoidal_behav -key {Behavioral:sim_1:Functional:tensao_senoidal} -tclbatch {tensao_senoidal.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1482 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source tensao_senoidal.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 755 MB. GUI used memory: 59 MB. Current time: 5/15/20, 9:58:43 PM BRT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tensao_senoidal_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 777.156 ; gain = 11.730 
+// 'd' command handler elapsed time: 23 seconds
+dismissDialog("Run Simulation"); // e (cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// [GUI Memory]: 117 MB (+7762kb) [00:02:37]
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false, false, false, false, true, false); // a (r, cp) - Popup Trigger
+selectMenuItem((HResource) null, "Force Clock..."); // af (al, cp)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (cp): Force Clock:  /tensao_senoidal/clk: addNotify
+selectComboBox(PAResourceQtoS.SimulationForceSettingsDialog_VALUE_RADIX, "Binary", 0); // e (Q, a)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_LEADING_EDGE_VALUE, "0"); // Y (Q, a)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_TRAILING_EDGE_VALUE, "1"); // Y (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/tensao_senoidal/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps 
+dismissDialog("Force Clock:  /tensao_senoidal/clk"); // a (cp)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 60 MB. Current time: 5/15/20, 9:59:08 PM BRT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 1000 ns 
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 506, 74); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 477, 83); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 762 MB. GUI used memory: 60 MB. Current time: 5/15/20, 9:59:14 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 499, 74); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 524, 73); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 554, 77); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 762 MB. GUI used memory: 59 MB. Current time: 5/15/20, 9:59:15 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 575, 76); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 595, 70); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 634, 65); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 762 MB. GUI used memory: 59 MB. Current time: 5/15/20, 9:59:16 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 655, 61); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 691, 57); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 719, 58); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 762 MB. GUI used memory: 59 MB. Current time: 5/15/20, 9:59:17 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 729, 64); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1211 ms. Increasing delay to 3633 ms.
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tensao_senoidal.vhd", 0); // k (j, cp)
+selectCodeEditor("tensao_senoidal.vhd", 178, 178); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("tensao_senoidal.vhd", 127, 435); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 200, 438); // cl (w, cp)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 18 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectCodeEditor("tensao_senoidal.vhd", 157, 443); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 156, 433); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 166, 468); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 95, 455); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 174, 451); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 187, 452); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 288, 251); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("tensao_senoidal.vhd", 280, 266); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 287, 263); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 170, 280); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 222, 282); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 169, 298); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 769 MB. GUI used memory: 58 MB. Current time: 5/15/20, 10:01:27 PM BRT
+// Elapsed time: 21 seconds
+selectCodeEditor("tensao_senoidal.vhd", 251, 340, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_FILE, "Save File"); // af (al, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tensao_senoidal.vhd", 190, 281); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 247, 259); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 176, 285); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 182, 300); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 192, 300); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("tensao_senoidal.vhd", 229, 287); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 230, 284); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 215, 300); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 182, 471); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("tensao_senoidal.vhd", 169, 261); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 158, 485); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 247, 450); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 263, 489); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 200, 480); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 185, 486); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("tensao_senoidal.vhd", 243, 523); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 247, 538); // cl (w, cp)
+// Elapsed time: 39 seconds
+selectCodeEditor("tensao_senoidal.vhd", 226, 504); // cl (w, cp)
+// Elapsed time: 84 seconds
+selectCodeEditor("tensao_senoidal.vhd", 254, 391); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 236, 381); // cl (w, cp)
+// Elapsed time: 345 seconds
+selectCodeEditor("tensao_senoidal.vhd", 236, 112); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 309, 110); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 239, 104); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 216, 104); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 117, 133); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 147, 125); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("tensao_senoidal.vhd", 223, 121); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 167, 122); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 160, 346); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 301, 360); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 197, 381); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 296, 354); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 284, 379); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 196, 333); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("tensao_senoidal.vhd", 147, 213); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 261, 217); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("tensao_senoidal.vhd", 0, 424); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 176, 402); // cl (w, cp)
+typeControlKey(null, null, 'z');
+selectCodeEditor("tensao_senoidal.vhd", 109, 415); // cl (w, cp)
+// Elapsed time: 24 seconds
+selectCodeEditor("tensao_senoidal.vhd", 34, 347); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 20, 348); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 17, 334); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 24, 347); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 15, 343); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 96, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 161, 313); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 21, 323); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("tensao_senoidal.vhd", 197, 149); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("tensao_senoidal.vhd", 234, 217); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 144, 145); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("tensao_senoidal.vhd", 313, 180); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 355, 289); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 196, 318); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 205, 340); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 183, 324); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 191, 142); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 192, 148); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("tensao_senoidal.vhd", 84, 127); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 248, 117); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 233, 146); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 276, 383); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// c (cp): Save Simulation Sources: addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Close : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Save Simulation Sources"); // c (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 796.613 ; gain = 0.000 
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Close"); // bx (cp)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'tensao_senoidal' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-XSim-101] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj tensao_senoidal_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.srcs/sources_1/new/tensao_senoidal.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tensao_senoidal' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tensao_senoidal_behav -key {Behavioral:sim_1:Functional:tensao_senoidal} -tclbatch {tensao_senoidal.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source tensao_senoidal.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:14:34 PM BRT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tensao_senoidal_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 796.613 ; gain = 0.000 
+// 'd' command handler elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e (cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false, false, false, false, true, false); // a (r, cp) - Popup Trigger
+selectMenu((HResource) null, "Name"); // ac (al, cp)
+selectMenu((HResource) null, "Signal Color"); // ac (al, cp)
+selectMenu((HResource) null, "Name"); // ac (al, cp)
+selectMenuItem((HResource) null, "Force Clock..."); // af (al, cp)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (cp): Force Clock:  /tensao_senoidal/clk: addNotify
+selectComboBox(PAResourceQtoS.SimulationForceSettingsDialog_VALUE_RADIX, "Binary", 0); // e (Q, a)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_LEADING_EDGE_VALUE, "0"); // Y (Q, a)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_TRAILING_EDGE_VALUE, "1"); // Y (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/tensao_senoidal/clk} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps 
+dismissDialog("Force Clock:  /tensao_senoidal/clk"); // a (cp)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:14:46 PM BRT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 1000 ns 
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 489, 112); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 529, 113); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 60 MB. Current time: 5/15/20, 10:14:54 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 576, 113); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 614, 112); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 655, 110); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 60 MB. Current time: 5/15/20, 10:14:55 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 687, 106); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 551, 106); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 461, 97); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:14:57 PM BRT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 103); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 579, 102); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 60 MB. Current time: 5/15/20, 10:14:58 PM BRT
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tensao_senoidal.vhd", 0); // k (j, cp)
+selectCodeEditor("tensao_senoidal.vhd", 277, 402); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 1); // k (j, cp)
+// Elapsed time: 62 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, constante]", 8, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, R]", 9, false, false, false, false, true, false); // a (r, cp) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 188, 557); // n (o, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:16:52 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, R]", 9, false, false, false, false, true, false); // a (r, cp) - Popup Trigger
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, R]", 9, false); // a (r, cp)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, constante]", 8, false); // a (r, cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:17:03 PM BRT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, t]", 1, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, X]", 3, false); // a (r, cp)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Vp]", 4, false); // a (r, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:17:07 PM BRT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Ip]", 5, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, R]", 8, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 61 MB. Current time: 5/15/20, 10:17:11 PM BRT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, f]", 2, false); // a (r, cp)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, X]", 3, false); // a (r, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tensao_senoidal.vhd", 0); // k (j, cp)
+selectCodeEditor("tensao_senoidal.vhd", 330, 377); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 349, 371); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 411, 181, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_FILE, "Save File"); // af (al, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  15415 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  13428502 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 55 MB. Current time: 5/15/20, 11:54:33 PM BRT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1952 ms. Increasing delay to 5856 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 55 MB. Current time: 5/16/20, 12:24:36 AM BRT
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 54 MB. Current time: 5/16/20, 12:54:36 AM BRT
+// Elapsed time: 18537 seconds
+selectCodeEditor("tensao_senoidal.vhd", 266, 380); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 283, 378); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 269, 371); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 264, 385); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("tensao_senoidal.vhd", 322, 352); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 277, 367); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 338, 392); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 297, 373); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 284, 386); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 227, 330); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 204, 333); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 160, 335); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("tensao_senoidal.vhd", 707, 198); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 192, 232); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 150, 262); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 141, 240); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 270, 235); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 147, 149); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 291, 243); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 170, 144); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 105, 252); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 88, 217); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 55 MB. Current time: 5/16/20, 1:24:36 AM BRT
+// Elapsed time: 636 seconds
+selectCodeEditor("tensao_senoidal.vhd", 176, 140, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_SELECT_ALL, "Select All"); // af (al, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+// Elapsed time: 271 seconds
+selectCodeEditor("tensao_senoidal.vhd", 438, 323); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 181, 411); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 173, 360); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 203, 370); // cl (w, cp)
+// Elapsed time: 899 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectCodeEditor("tensao_senoidal.vhd", 167, 161); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 167, 161, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_SELECT_ALL, "Select All"); // af (al, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("tensao_senoidal.vhd", 392, 239); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 334, 148, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_SELECT_ALL, "Select All"); // af (al, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 584, 313); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("tensao_senoidal.vhd", 131, 162); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("tensao_senoidal.vhd", 172, 479); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 442, 539); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 178, 486); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 48, 497); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 93, 500); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 439, 554); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 432, 478); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 442, 496); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 267, 499); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 273, 502); // cl (w, cp)
+// Elapsed time: 31 seconds
+selectCodeEditor("tensao_senoidal.vhd", 155, 84); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 348, 474); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 311, 409); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 321, 437); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 142, 341); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 255, 363); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 303, 411); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 561, 331); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 558, 333); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 561, 329); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 552, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 544, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 446, 329); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 392, 330); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 382, 336); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 312, 331); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 254, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 262, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 249, 333); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 263, 378); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 230, 351); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 153, 344); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// f (cp): Launch Runs: addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 16 01:47:40 2020] Launched synth_1... Run output will be captured here: C:/Users/Renan/Desktop/tensao_senoidal/tensao_senoidal.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("tensao_senoidal.vhd", 161, 336); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 162, 331); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 169, 333); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 207, 333); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 259, 334); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 166, 326); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 160, 331); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 564, 334); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 241, 402); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 244, 355); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 321, 381); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 284, 350); // cl (w, cp)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cp)
+// bx (cp):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (C, I)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (cp)
+selectCodeEditor("tensao_senoidal.vhd", 314, 402); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 544, 331); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 201, 337); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 602, 333); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 420, 303); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 429, 317); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("tensao_senoidal.vhd", 202, 359); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("tensao_senoidal.vhd", 641, 387); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 69, 381); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 71, 339); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 700, 318); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 596, 319); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 452, 303); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("tensao_senoidal.vhd", 177, 314); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 155, 317); // cl (w, cp)
+// Elapsed time: 70 seconds
+selectCodeEditor("tensao_senoidal.vhd", 225, 380); // cl (w, cp)
+// Elapsed time: 33 seconds
+selectCodeEditor("tensao_senoidal.vhd", 200, 383); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 52, 416); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 357, 349); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 512, 328); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 600, 328); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 65, 327); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 430, 314); // cl (w, cp)
+// Elapsed time: 62 seconds
+selectCodeEditor("tensao_senoidal.vhd", 185, 311); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 240, 312); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 247, 312); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 284, 309); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 242, 311); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 203, 76); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 152, 60); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 181, 384); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 36, 316); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 242, 312); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("tensao_senoidal.vhd", 213, 313); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 320, 375); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 266, 327); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 277, 309); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 258, 312); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 225, 52); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 243, 59); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 243, 62); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 188, 77); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 194, 78); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("tensao_senoidal.vhd", 247, 82); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 56 MB. Current time: 5/16/20, 1:54:37 AM BRT
+// Elapsed time: 27 seconds
+selectCodeEditor("tensao_senoidal.vhd", 281, 96); // cl (w, cp)
+// Elapsed time: 39 seconds
+selectCodeEditor("tensao_senoidal.vhd", 92, 77); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 232, 467); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 218, 97); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 91, 92); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 344, 466); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 90, 113); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 508, 470); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 504, 465); // cl (w, cp)
+typeControlKey((HResource) null, "tensao_senoidal.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 29, 448); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("tensao_senoidal.vhd", 47, 336); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 37, 332); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 47, 306); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 231, 315); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("tensao_senoidal.vhd", 139, 87); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 150, 80); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 329, 166); // cl (w, cp)
+// Elapsed time: 30 seconds
+selectCodeEditor("tensao_senoidal.vhd", 230, 352); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 290, 318); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 219, 214); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 182, 213); // cl (w, cp)
+selectCodeEditor("tensao_senoidal.vhd", 226, 231); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("tensao_senoidal.vhd", 79, 292); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// c (cp): Save Simulation Sources: addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Simulation Sources"); // c (cp)
+// TclEventType: FILE_SET_CHANGE
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Save", "Save"); // JButton (C, I)
+dismissFileChooser();
+// 'd' command handler elapsed time: 7 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2*", 1); // k (j, cp)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton (C, I)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2*"); // w
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bx (cp):  Close : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (C, I)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Elapsed time: 118 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

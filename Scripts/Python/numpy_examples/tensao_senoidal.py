@@ -13,10 +13,12 @@ Ts = 1./Fs        # Sampling interval, Ts = 20 us
 N = int(T/Ts)     # No. of samples for 2 ms, N = 100
 
 w=2*(np.pi)*F
+
 #-------------------------------------------------------------
 Vp = float(15) #tensão de pico = amplitude
 phi = float(np.pi) #em radiano
 R = 4.3
+
 
 Ip = Vp/R
 

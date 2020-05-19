@@ -1,0 +1,1 @@
+-wto "7af35bacfa1642119677de161e27edf3" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "sinewave_behav" "xil_defaultlib.sinewave" -log "elaborate.log" 

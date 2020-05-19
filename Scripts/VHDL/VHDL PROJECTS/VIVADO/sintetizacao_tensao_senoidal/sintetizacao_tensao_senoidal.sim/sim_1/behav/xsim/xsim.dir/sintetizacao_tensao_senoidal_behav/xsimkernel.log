@@ -1,0 +1,7 @@
+Running: xsim.dir/sintetizacao_tensao_senoidal_behav/xsimk.exe -simmode gui -wdb sintetizacao_tensao_senoidal_behav.wdb -simrunnum 0 -socket 60132
+Design successfully loaded
+Design Loading Memory Usage: 5664 KB (Peak: 5664 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6244 KB (Peak: 6244 KB)
+Simulation CPU Usage: 15 ms

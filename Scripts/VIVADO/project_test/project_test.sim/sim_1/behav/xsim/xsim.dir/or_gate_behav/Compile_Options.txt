@@ -1,1 +1,0 @@
--wto "622a098681154375881008f65cadc7a5" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "or_gate_behav" "xil_defaultlib.or_gate" -log "elaborate.log" 

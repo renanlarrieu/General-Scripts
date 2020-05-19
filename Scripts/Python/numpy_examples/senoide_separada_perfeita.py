@@ -20,7 +20,8 @@ import matplotlib.ticker as tck
 import scipy.interpolate
 import matplotlib.pyplot as plt
 
-n = int(10e4)
+
+n = int(10e3)
 x=.0
 dx=(2*np.pi)/n
 
