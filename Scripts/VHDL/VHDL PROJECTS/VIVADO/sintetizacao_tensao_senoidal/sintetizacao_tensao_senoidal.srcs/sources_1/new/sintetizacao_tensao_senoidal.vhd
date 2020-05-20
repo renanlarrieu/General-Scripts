@@ -17,38 +17,38 @@
 -- Additional Comments:
 -- 
 ----------------------------------------------------------------------------------
-
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
+library xil_defaultlib;
+library work;
+--library fplib;
+use work.pkg_fplib.all; 
 --library UNISIM;
 --use UNISIM.VComponents.all;
+library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity sintetizacao_tensao_senoidal is
---  Port ( );
+    generic ( N: integer := 2);
+    port (
+            x, y : in unsigned(N-1 downto 0);
+            s, d : out unsigned (N-1 downto 0)
+        );
 end sintetizacao_tensao_senoidal;
 
-architecture Behavioral of sintetizacao_tensao_senoidal is
+architecture arch of sintetizacao_tensao_senoidal is
+signal p: unsigned(N-1 downto 0);
 
-signal a : integer := 10;
-signal b: integer := 2;
-signal c: integer;
-
-begin
-    process
+--sum2Num procedure: add and subtract two numbers
+procedure sum2num(signal a: in unsigned(N-1 downto 0); 
+                        signal b: in unsigned(N-1 downto 0);
+                        signal sum, diff : out unsigned (N-1 downto 0)) is 
     begin
-        c<=a/b;
-        wait;
-    
-    
-    end process;
+     sum <= a + b;
+     diff <= a - b;
+ end sum2num; -- procedure ends
+begin   
+    sum2num(a=>x,b=>y,diff=>p,sum=>s); -- procedure call
+    d <= p; -- assing signal p to d
+end arch;
 
 
-end Behavioral;

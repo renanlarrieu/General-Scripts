@@ -1,0 +1,25 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/misc/pkg_misc.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpmul/pkg_fpmul.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpdiv/pkg_fpdiv.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpsqrt/pkg_fpsqrt.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fplib_fp.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/lns/pkg_lnsadd/pkg_lnsadd.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/lns/pkg_fplib_lns.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/pkg_fplib.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/misc/delay.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/fp_misc/fp_format.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/fp_misc/fp_round.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/fp_misc/pkg_fp_misc.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/fpdiv.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/fpdiv_clk.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpdiv/fpdiv_division.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpdiv/fpdiv_division_clk.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpdiv/fpdiv_srt4_step.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/lns/lnsdiv.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/lns/lnsdiv_clk.vhd" \
+"../../../../../../../VHDL LIBRARY/fplibrary-0.94/vhdl/fplib.vhd" \
+
+# Do not sort compile order
+nosort
