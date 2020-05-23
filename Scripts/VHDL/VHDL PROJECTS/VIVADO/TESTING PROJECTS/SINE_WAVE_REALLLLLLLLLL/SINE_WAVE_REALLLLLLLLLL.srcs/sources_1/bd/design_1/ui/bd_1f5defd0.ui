@@ -1,0 +1,24 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port clk_100MHz -pg 1 -y 10 -defaultsOSRD
+preplace port reset_rtl_0_0 -pg 1 -y -150 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -y -10 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -y -80 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 3 -y -110 -defaultsOSRD
+preplace inst SinGenerator_0 -pg 1 -lvl 3 -y 50 -defaultsOSRD
+preplace netloc reset_rtl_0_0_1 1 0 3 NJ -150 NJ -150 300J
+preplace netloc clk_wiz_locked 1 2 1 N
+preplace netloc reset_rtl_0_1 1 0 2 NJ -10 30J
+preplace netloc clk_100MHz_1 1 0 3 NJ 10 40J 70 N
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 2 2 300 130 650
+preplace netloc clk_wiz_clk_out1 1 2 1 310
+levelinfo -pg 1 -110 10 210 480 910 -top -500 -bot 280
+"
+}
+{
+   "da_board_cnt":"6",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}

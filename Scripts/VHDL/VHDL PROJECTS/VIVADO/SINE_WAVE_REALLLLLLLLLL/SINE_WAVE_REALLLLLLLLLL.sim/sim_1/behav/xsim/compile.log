@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/PythonUberHDL-master/myHDL_DigitalSignalandSystems/Synthesizers/SinGenerator_verilog.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module SinGenerator
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SINE_WAVE_REALLLLLLLLLL/SINE_WAVE_REALLLLLLLLLL.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

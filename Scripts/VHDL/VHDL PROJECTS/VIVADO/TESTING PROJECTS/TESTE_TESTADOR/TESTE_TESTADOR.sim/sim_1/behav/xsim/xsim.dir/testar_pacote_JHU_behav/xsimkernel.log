@@ -1,0 +1,7 @@
+Running: xsim.dir/testar_pacote_JHU_behav/xsimk.exe -simmode gui -wdb testar_pacote_JHU_behav.wdb -simrunnum 0 -socket 61036
+Design successfully loaded
+Design Loading Memory Usage: 5172 KB (Peak: 5172 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 5768 KB (Peak: 5768 KB)
+Simulation CPU Usage: 46 ms
