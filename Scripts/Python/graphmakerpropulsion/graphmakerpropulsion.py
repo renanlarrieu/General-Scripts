@@ -122,7 +122,7 @@ print('Os resultados de seu teste são:')
 print('Impulso =',integrate(x, y),'N.s')
 integrate(x,y)
 #max(y, key=float)
-print('Fmax =',fmax,'N)
+print('Fmax =',fmax,'N')
 print('Instante Fmáx =',x[t],'s')
 print('Tempo de queima =',x[len(x)-1],'s')
 
