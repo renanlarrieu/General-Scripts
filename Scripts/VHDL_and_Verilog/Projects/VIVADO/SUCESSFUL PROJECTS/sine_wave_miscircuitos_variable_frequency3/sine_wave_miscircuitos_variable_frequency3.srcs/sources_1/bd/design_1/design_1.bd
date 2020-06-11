@@ -1,0 +1,52 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7vx485tffg1157-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "sine_dds_0": ""
+    },
+    "components": {
+      "sine_dds_0": {
+        "vlnv": "xilinx.com:module_ref:sine_dds:1.0",
+        "xci_name": "design_1_sine_dds_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sine_dds",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "dds_clk": {
+            "type": "clk",
+            "direction": "O"
+          },
+          "fcw": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "dds_sin": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "dds_stb": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}

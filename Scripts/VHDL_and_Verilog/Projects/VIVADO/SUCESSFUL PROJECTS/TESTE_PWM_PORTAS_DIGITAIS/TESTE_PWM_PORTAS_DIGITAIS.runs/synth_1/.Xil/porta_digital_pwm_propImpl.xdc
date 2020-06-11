@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/TESTE_PWM_PORTAS_DIGITAIS/TESTE_PWM_PORTAS_DIGITAIS.srcs/constrs_1/new/constraint_digital_pwm_port.xdc} rfile:../../../TESTE_PWM_PORTAS_DIGITAIS.srcs/constrs_1/new/constraint_digital_pwm_port.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN Y9 IOSTANDARD LVCMOS33} [get_ports CLK]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W12 [get_ports JB1]

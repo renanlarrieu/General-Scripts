@@ -1,0 +1,16 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst floating_point_0 -pg 1 -lvl 3 -y -110 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -y -200 -defaultsOSRD
+preplace inst sim_clk_gen_0 -pg 1 -lvl 2 -y 30 -defaultsOSRD
+preplace inst sim_clk_gen_1 -pg 1 -lvl 1 -y -120 -defaultsOSRD
+preplace netloc LOGIC_SOURCE_0_HIGH 1 1 2 N -130 80
+preplace netloc sim_clk_gen_0_clk 1 2 1 70
+preplace netloc xlconstant_0_dout 1 2 1 70
+levelinfo -pg 1 -320 -220 -30 250 440 -top -320 -bot 300
+"
+}
+0

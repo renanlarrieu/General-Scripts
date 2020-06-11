@@ -1,0 +1,5 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0462c6a7f25f4b429e94ab608185fdfe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_2_wrapper_behav xil_defaultlib.design_2_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.glbl in library work located at xsim.dir/work.

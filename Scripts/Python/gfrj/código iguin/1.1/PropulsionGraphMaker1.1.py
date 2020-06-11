@@ -11,7 +11,7 @@ print("-------------------------------------------------------------")
 print("NOVA SIMULAÇÃO")
 print("-------------------------------------------------------------")
 ts=float(input("Timestep da simulação :"))
-print("-------------------------------------------------------------")
+#print("-------------------------------------------------------------")
 
 #densidade/raio da porta/ raio do grao / constante de regressão
 # / tamanho do grão / tamanho da garganta / fluxo do oxidante 
@@ -39,7 +39,9 @@ mwp= 20.46 #peso molecular do g/m
 pf1=0.920 #densidade em g/cm^3
 a=0.091 #expoente para # Kg/m^2s#
 d=a*(2*n+1) #pra facilitar conta
-t=0.02#tempo inicial#
+
+t=0.02#0.000001#.02#tempo inicial#
+
 #ts=0.1 #time step#
 L1=10#comprimento em cm do grao#
 b=(m1/math.pi)**n  # facilitar conta#
@@ -87,7 +89,8 @@ while Ra<R:
 #---------------------------------------------------         
 
         r=a*((oxfl))**n
-        mf = math.pi * L1 * pf1 * ((R4) ** 2 - (Ro) ** 2) * (1 / ts)  # massa do combustive g/s#
+#        mf = math.pi * L1 * pf1 * ((R4) ** 2 - (Ro) ** 2) * (1 / ts)  # massa do combustive g/s#
+        mf = math.pi * L1 * pf1 * ((R4) ** 2 - (Ro) ** 2) * (1 / ts)
         lista_massa_combustivel.append(mf)
 #--------------------------------------------------- 
         flutot = (m1 / 1000) + (mf / 1000)

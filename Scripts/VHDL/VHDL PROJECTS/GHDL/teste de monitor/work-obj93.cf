@@ -1,4 +1,0 @@
-v 3
-file . "multiplexador_2_entradas.vhdl" "20200503021834.000" "20200511210924.603":
-  entity multiplexador_2_entradas at 1( 0) + 0 on 13;
-  architecture hardware of multiplexador_2_entradas at 20( 337) + 0 on 14;

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sine_dds_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sine_dds" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3000000000fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/sine_dds/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/fcw" type="array">
+      <obj_property name="ElementShortName">fcw[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fcw[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/accu" type="array">
+      <obj_property name="ElementShortName">accu[23:0]</obj_property>
+      <obj_property name="ObjectShortName">accu[23:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/dds_sin" type="array">
+      <obj_property name="ElementShortName">dds_sin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_sin[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/dds_clk" type="logic">
+      <obj_property name="ElementShortName">dds_clk</obj_property>
+      <obj_property name="ObjectShortName">dds_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/dds_stb" type="logic">
+      <obj_property name="ElementShortName">dds_stb</obj_property>
+      <obj_property name="ObjectShortName">dds_stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/rom_memory" type="array">
+      <obj_property name="ElementShortName">rom_memory[1023:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_memory[1023:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/fdiv_cnt" type="array">
+      <obj_property name="ElementShortName">fdiv_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fdiv_cnt[1:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/accu_en" type="logic">
+      <obj_property name="ElementShortName">accu_en</obj_property>
+      <obj_property name="ObjectShortName">accu_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/accu_msb_q" type="logic">
+      <obj_property name="ElementShortName">accu_msb_q</obj_property>
+      <obj_property name="ObjectShortName">accu_msb_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sine_dds/lut_index" type="array">
+      <obj_property name="ElementShortName">lut_index[9:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_index[9:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>
