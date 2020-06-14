@@ -11,7 +11,7 @@ generic(
 cntampl_value_g : integer := 255; -- threshold value for counter,
 -- it's value should be equal to (2^depth)-1
 depth_g : integer range 1 to 99 := 8; -- the number of samples in one period of the signal
-width_g : integer range 1 to 99 := 12; -- the number of bits used to represent amplitude value
+width_g : integer range 1 to 99 := 32; -- the number of bits used to represent amplitude value
 div_factor_freqhigh_g : integer := 55; -- threshold value for high frequency
 div_factor_freqlow_g : integer := 195 -- threshold value for low frequency
 );
@@ -38,5 +38,5 @@ div_factor_freqlow => conv_std_logic_vector(div_factor_freqlow_g, 32),
 sine_out => sine_out_s
 );
 clk_in_s <= not (clk_in_s) after per_c/2; -- 50 MHz input clock signal
-sw0_s <= '0', '1' after 1 ms;
+sw0_s <= '0';--, '1' after 1 ms;
 end;

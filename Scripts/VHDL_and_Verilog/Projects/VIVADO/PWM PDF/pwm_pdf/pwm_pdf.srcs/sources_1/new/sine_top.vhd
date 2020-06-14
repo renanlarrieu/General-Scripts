@@ -55,4 +55,5 @@ clk_in => clk_in, -- input clock signal
 ampl_cnt => ampl_cnt_s, -- address value for the sine waveform ROM
 sine_out => sine_out -- current amplitude value of the sine signal
 );
+
 end;
