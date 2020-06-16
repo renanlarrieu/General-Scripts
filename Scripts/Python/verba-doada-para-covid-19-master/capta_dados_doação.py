@@ -24,7 +24,7 @@ dados[276].split(',')[3] => total geral somado
 '''
 
 
-import matplotlib.pyplot as plt
+
 
 
 org_nome=[]
@@ -32,8 +32,8 @@ org_quantia=[]
 
 artista_nome=[]
 artista_valor=[]
-dados = open("teste123.csv").readlines() #trocar para o nome_do_arquivo após testes de diagnóstico
-
+dados = open("testeteste.xlsx").readlines() #trocar para o nome_do_arquivo após testes de diagnóstico
+'''
 for i in range (2,136,1):
     if len(dados[i].split(',')) == 4:
         org_nome.append(str(dados[i].split(',')[1]))
@@ -42,8 +42,8 @@ for i in range (2,136,1):
         org_nome.append(str(dados[i].split(',')[1]))
         org_quantia.append(float(dados[i].split(',')[4].split('\n')[0]))
 
-fig1 = plt.gcf() #cria a figura 
-
+#fig1 = plt.gcf() #cria a figura 
+'''
 
 '''
 for i in range (1,134,1):

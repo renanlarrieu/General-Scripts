@@ -30,7 +30,7 @@ type vector_t_arr is array (natural range <>) of integer;
 constant per_c : time := 20 ns; -- clock period (T=1/50 MHz), that is used in almost all test benches
 type design_setting_t_rec is record
 cntampl_value : integer; -- counter amplitude border,
--- it’s value should be equal to (2^depth)-1
+-- it's value should be equal to (2^depth)-1
 f_low : real; -- first frequency for the PWM signal, specified in Hz
 f_high: real; -- second frequency for the PWM signal, specified in Hz
 depth : integer range 0 to 99; -- the number of samples in one period of the signal
@@ -80,8 +80,8 @@ begin
 for i in 1 to board_info_c'length loop
 -- if supplied board name equals some of supported boards,
 -- return board information for that board
-
-if (board_type_t'image(board_info_c(i).board_name) = board_name_c(2 to board_name_c'length-1)) then
+if (board_type_t'image(board_info_c(i).board_name) = board_name_c(2 to board_name_c'length-1))
+then
 return board_info_c(i);
 end if;
 end loop;

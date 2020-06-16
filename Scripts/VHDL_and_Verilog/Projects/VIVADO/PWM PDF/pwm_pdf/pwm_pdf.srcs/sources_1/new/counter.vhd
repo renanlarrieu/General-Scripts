@@ -24,6 +24,7 @@ wait until rising_edge(clk_in);
 if (cnt_en = '1') then
 -- conv_std_logic_vector function converts integer type to std_logic_vector type
 if (cnt_out_s = conv_std_logic_vector (cnt_value_g, depth_g)) then
+
 cnt_out_s <= (others => '0'); -- counter reset
 else
 cnt_out_s <= cnt_out_s + 1; -- counter
