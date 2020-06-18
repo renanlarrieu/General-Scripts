@@ -2,27 +2,32 @@
 `timescale 1ns / 1ps
 
 module dente_serra(
-        input CLK,
-        output [1:0] JB
-//        output [1:0] JA
+        input clk,
+        output tensao_teste,
+        output tensao_meio_ciclo
+
                
     );
     
 //create a simple counter    
-    
+ //tensao = vp*sin(wt+phi)   
 integer counter = 0;
-
-always@(posedge CLK) begin
-    if (counter <628) counter <= counter +1; //count until 100
+integer R=10;
+integer Vp=5;
+integer tensao = 0;
+always@(posedge clk) begin
+    if (counter <628) counter <= counter +1;
+        tensao=Vp*counter;
     if (counter == 628) counter <= 0;
+    
     //else counter <= 0; //reset counter
     
 
 end
 
 
-
-assign JB[0] = (counter <50) ? 1:0;
+assign tensao_teste = counter;
+assign tensao_meio_ciclo = (counter <314) ? 1:0;
 
 
 
