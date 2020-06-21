@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\You Tube - Meu Canal\ZZZ FPGA curso\FPGA_003_Sinais_e_Circuito_Combinacional\FPGA003_WR_Files\simulation\qsim
+vcircuito_combinacional
+Z1 IjBL=[ER]IjGK@YZ^i>;Fl3
+Z2 VIzbf5^QfGHUAe9`@SzGKb3
+Z3 dC:\You Tube - Meu Canal\ZZZ FPGA curso\FPGA_003_Sinais_e_Circuito_Combinacional\FPGA003_WR_Files\simulation\qsim
+Z4 w1436219061
+Z5 8circuito_combinacional.vo
+Z6 Fcircuito_combinacional.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 O5`XRFPFH5FJ4STl>?K?61
+!s85 0
+Z10 !s108 1436219062.956000
+Z11 !s107 circuito_combinacional.vo|
+Z12 !s90 -work|work|circuito_combinacional.vo|
+!s101 -O0
+vcircuito_combinacional_vlg_check_tst
+!i10b 1
+!s100 Xj3SM^dfN<7>4c4CJ;TcY0
+I=TmVfaa0z^7okB=I?hBG?2
+Va23VEbSa9=><fhPb<GKEb1
+R3
+Z13 w1436219060
+Z14 8circuito_combinacional.vt
+Z15 Fcircuito_combinacional.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1436219063.136000
+Z17 !s107 circuito_combinacional.vt|
+Z18 !s90 -work|work|circuito_combinacional.vt|
+!s101 -O0
+R8
+vcircuito_combinacional_vlg_sample_tst
+!i10b 1
+!s100 iO4n>8_Cb=IC54=5nIEEE3
+IU6PRA;_QYEJJN79W?a>Z=0
+V2`D8V2BiCA_5h2<C[N?[z2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vcircuito_combinacional_vlg_vec_tst
+!i10b 1
+!s100 7mz7;]H>LTN9FQ1QO4eJh1
+I3N4Ifc0Y_:5Pa4Hbg8Ehk0
+V[XSQkYXaggY8c8T737;i^2
+R3
+R13
+R14
+R15
+L0 156
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

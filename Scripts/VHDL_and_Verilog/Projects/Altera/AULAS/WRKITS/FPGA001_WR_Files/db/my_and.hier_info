@@ -1,0 +1,6 @@
+|my_and
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
