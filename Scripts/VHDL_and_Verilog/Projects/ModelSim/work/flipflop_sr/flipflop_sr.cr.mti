@@ -1,0 +1,10 @@
+{C:/Users/Renan/Desktop/wrkits codes/cordic.vhd} {0 {vcom -work work -2002 -explicit {C:/Users/Renan/Desktop/wrkits codes/cordic.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cordic
+-- Compiling architecture a of cordic
+** Error: C:/Users/Renan/Desktop/wrkits codes/cordic.vhd(58): near "process": expecting BEGIN
+
+} {8.0 9.0} {}}

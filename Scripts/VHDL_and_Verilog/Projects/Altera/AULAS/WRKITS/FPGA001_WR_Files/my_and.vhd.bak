@@ -1,0 +1,24 @@
+--
+--  Porta lógica AND descrita em VHDL
+--
+--  Duas entradas: a e b
+--
+--  Uma saida: o
+--
+--  Autor: Wagner Rambo
+--  Data: Junho de 2015
+--
+
+	library IEEE;						-- Indica utiliza as bibliotecas do Instuto de Engenheiros Elétricos e Eletrônicos
+	use IEEE.std_logic_1164;		-- Utiliza a biblioteca padrão 1164
+	
+	
+	entity my_and is port			-- Declaraçao da entidade
+	(
+	  a	:  std_logic;				-- entrada digital a
+	  b	:  std_logic;				-- entrada digital b
+	  o	:  std_logic				-- saída digital o
+
+	);
+	
+	end my_and;							-- final da declaraçao da entidade

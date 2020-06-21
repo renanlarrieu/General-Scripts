@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_1_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="design_1_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1068317061fs"></ZoomStartTime>
+      <ZoomEndTime time="1226336588fs"></ZoomEndTime>
+      <Cursor1Time time="1200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/design_1_wrapper/design_1_i/sim_clk_gen_0_clk" type="logic">
+      <obj_property name="ElementShortName">sim_clk_gen_0_clk</obj_property>
+      <obj_property name="ObjectShortName">sim_clk_gen_0_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/GSR" type="logic">
+      <obj_property name="ElementShortName">GSR</obj_property>
+      <obj_property name="ObjectShortName">GSR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/GTS" type="logic">
+      <obj_property name="ElementShortName">GTS</obj_property>
+      <obj_property name="ObjectShortName">GTS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/GWE" type="logic">
+      <obj_property name="ElementShortName">GWE</obj_property>
+      <obj_property name="ObjectShortName">GWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/PRLD" type="logic">
+      <obj_property name="ElementShortName">PRLD</obj_property>
+      <obj_property name="ObjectShortName">PRLD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/p_up_tmp" type="logic">
+      <obj_property name="ElementShortName">p_up_tmp</obj_property>
+      <obj_property name="ObjectShortName">p_up_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/PLL_LOCKG" type="logic">
+      <obj_property name="ElementShortName">PLL_LOCKG</obj_property>
+      <obj_property name="ObjectShortName">PLL_LOCKG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/PROGB_GLBL" type="logic">
+      <obj_property name="ElementShortName">PROGB_GLBL</obj_property>
+      <obj_property name="ObjectShortName">PROGB_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/CCLKO_GLBL" type="logic">
+      <obj_property name="ElementShortName">CCLKO_GLBL</obj_property>
+      <obj_property name="ObjectShortName">CCLKO_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/FCSBO_GLBL" type="logic">
+      <obj_property name="ElementShortName">FCSBO_GLBL</obj_property>
+      <obj_property name="ObjectShortName">FCSBO_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/DO_GLBL" type="array">
+      <obj_property name="ElementShortName">DO_GLBL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DO_GLBL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/DI_GLBL" type="array">
+      <obj_property name="ElementShortName">DI_GLBL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DI_GLBL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/GSR_int" type="logic">
+      <obj_property name="ElementShortName">GSR_int</obj_property>
+      <obj_property name="ObjectShortName">GSR_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/GTS_int" type="logic">
+      <obj_property name="ElementShortName">GTS_int</obj_property>
+      <obj_property name="ObjectShortName">GTS_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/PRLD_int" type="logic">
+      <obj_property name="ElementShortName">PRLD_int</obj_property>
+      <obj_property name="ObjectShortName">PRLD_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_TDO_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_TDO_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_TDO_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_TCK_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_TCK_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_TCK_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_TDI_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_TDI_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_TDI_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_TMS_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_TMS_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_TMS_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_TRST_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_TRST_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_TRST_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_CAPTURE_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_CAPTURE_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_CAPTURE_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_RESET_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_RESET_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_RESET_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_SHIFT_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_SHIFT_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_SHIFT_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_UPDATE_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_UPDATE_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_UPDATE_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_RUNTEST_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_RUNTEST_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_RUNTEST_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_SEL1_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_SEL1_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_SEL1_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_SEL2_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_SEL2_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_SEL2_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_SEL3_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_SEL3_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_SEL3_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_SEL4_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_SEL4_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_SEL4_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_USER_TDO1_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_USER_TDO1_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_USER_TDO1_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_USER_TDO2_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_USER_TDO2_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_USER_TDO2_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_USER_TDO3_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_USER_TDO3_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_USER_TDO3_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/JTAG_USER_TDO4_GLBL" type="logic">
+      <obj_property name="ElementShortName">JTAG_USER_TDO4_GLBL</obj_property>
+      <obj_property name="ObjectShortName">JTAG_USER_TDO4_GLBL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/ROC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ROC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/glbl/TOC_WIDTH" type="array">
+      <obj_property name="ElementShortName">TOC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOC_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

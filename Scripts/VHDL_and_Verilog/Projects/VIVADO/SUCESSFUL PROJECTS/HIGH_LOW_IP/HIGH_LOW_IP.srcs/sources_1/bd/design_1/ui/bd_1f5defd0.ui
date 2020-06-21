@@ -1,0 +1,9 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst LOGIC_GATE_0 -pg 1 -lvl 1 -y 170 -defaultsOSRD
+levelinfo -pg 1 0 110 390 570 -top -100 -bot 360
+"
+}
+

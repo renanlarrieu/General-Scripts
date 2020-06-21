@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_sinus_gen_0_0_synth_1" LaunchDir="C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_VERILOG/VHDL_VERILOG PROJECTS/VIVADO/TESTING PROJECTS/TESTE_CORDIC3/TESTE_CORDIC3.runs/design_1_sinus_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_sim_clk_gen_0_0_synth_1" LaunchDir="C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_VERILOG/VHDL_VERILOG PROJECTS/VIVADO/TESTING PROJECTS/TESTE_CORDIC3/TESTE_CORDIC3.runs/design_1_sim_clk_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

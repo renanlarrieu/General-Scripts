@@ -1,0 +1,7 @@
+Running: xsim.dir/cfg_sine_wave_tb_behav/xsimk.exe -simmode gui -wdb cfg_sine_wave_tb_behav.wdb -simrunnum 0 -socket 51848
+Design successfully loaded
+Design Loading Memory Usage: 5212 KB (Peak: 5212 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5816 KB (Peak: 5816 KB)
+Simulation CPU Usage: 15 ms

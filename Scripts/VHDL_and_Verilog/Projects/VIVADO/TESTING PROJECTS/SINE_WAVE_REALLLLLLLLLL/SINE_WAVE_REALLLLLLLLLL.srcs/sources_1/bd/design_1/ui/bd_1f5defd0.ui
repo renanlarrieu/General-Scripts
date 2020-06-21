@@ -1,0 +1,13 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst SinGenerator_0 -pg 1 -lvl 3 -y 50 -defaultsOSRD
+levelinfo -pg 1 -110 10 210 490 910 -top -500 -bot 280
+"
+}
+{
+   "da_board_cnt":"6",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}

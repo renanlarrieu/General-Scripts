@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../confirmação_de_teste_de_pacote.srcs/sources_1/imports/EXEMPLO_PACKAGE_SUCESSO/pacotes.vhd" \
+"../../../../confirmação_de_teste_de_pacote.srcs/sources_1/imports/EXEMPLO_PACKAGE_SUCESSO/exemplo_de_utilizador_de_pacote.vhd" \
+
+# Do not sort compile order
+nosort

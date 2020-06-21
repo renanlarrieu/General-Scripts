@@ -1,0 +1,59 @@
+#Código modelo para tratamento de dados da célula de carga
+
+import matplotlib.pyplot as plt
+import matplotlib.ticker as tck
+import scipy.interpolate
+import numpy as np
+
+t=0
+#x = tempo
+#y = força
+
+x=[]
+
+y=[]
+
+#z = [100 ,100 ,100, 100, 100, 100, 100 ,100,100,100,100,100,100,300,100,100,100,100,100,100, 100, 100, 100, 100, 100,100,100,100,100,100,100,100,100]#dimensão do ponto
+#fig = plt.figure()
+fig1 = plt.gcf() #cria a figura
+plt.rcParams['figure.figsize'] = (20,12) #tamanho do gráfico
+fig1, ax = plt.subplots() #anexa os subplots na figura
+
+ax.yaxis.set_minor_locator(tck.AutoMinorLocator())
+##----------------------------------------
+plt.title('Primeiro Teste estático CP3  - Força [N] x Tempo [S]') #título do grafico
+plt.xlabel('Tempo [s]') #nome do eixo x
+plt.ylabel('Força [N]') #nome do eixo y
+
+plt.plot(x, y, color='black', linestyle = '-') #dois graficos em 1
+plt.scatter(x, y, color='red', marker = '*')#, s= z) #dois graficos em 1
+plt.fill_between(x,0,y, color = 'grey') #pinta a área sob a curva
+plt.grid(True) #grade
+plt.show() #plota
+#plt.plot(x,y)
+#####y_interp = scipy.interpolate.interp1d(x, y)
+#####print (y_interp(33.0))
+fig1.savefig('Teste estático - Força [N] x Tempo [S]') #salva a figura em arquivo .png com qualidade em dpi
+
+
+#fig.savefig('Teste estático - Força [N] x Tempo [S]',400 dpi)
+
+#fig = plt.gcf()
+#plt.savefig('gráfico_CP3_1.png')
+#fig.savefig('teste.png', format='png') 
+#plt.plot(x,y) #caso eu quisesse plotar um gráfico só
+fmax = max(float(number) for number in y)
+
+elemento = y.index(fmax)
+t = (elemento)
+
+def integrate(x, y):
+    area = np.trapz(y=y, x=x)
+    return area
+print('Impulso =',integrate(x, y),'N.s')
+
+integrate(x,y)
+#max(y, key=float)
+print('Fmax =',max(float(number) for number in y),'N')
+print('Instante Fmáx =',x[t],'s')
+print('Tempo de queima =',x[len(x)-1],'s')

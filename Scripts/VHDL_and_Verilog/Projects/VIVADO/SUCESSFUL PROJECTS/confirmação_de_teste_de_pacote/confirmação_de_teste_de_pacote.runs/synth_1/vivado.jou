@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue May 19 23:42:50 2020
+# Process ID: 9156
+# Current directory: C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/confirmação_de_teste_de_pacote/confirmação_de_teste_de_pacote.runs/synth_1
+# Command line: vivado.exe -log exemplo_de_utilizador_de_pacote.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source exemplo_de_utilizador_de_pacote.tcl
+# Log file: C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/confirmação_de_teste_de_pacote/confirmação_de_teste_de_pacote.runs/synth_1/exemplo_de_utilizador_de_pacote.vds
+# Journal file: C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/confirmação_de_teste_de_pacote/confirmação_de_teste_de_pacote.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source exemplo_de_utilizador_de_pacote.tcl -notrace

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Renan\Documents\GitHub\Shared-Scripts\Scripts\ModelSim\work\my_latch
+Eflipflop_d
+Z0 w1588649395
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Renan\Documents\GitHub\Shared-Scripts\Scripts\ModelSim\work
+Z4 8C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D.vhd
+Z5 FC:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D.vhd
+l0
+L4
+Vb;m@]=fBM_W:I[:[CmA_=1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1588650704.350000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D.vhd|
+Z9 !s107 C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 Uf[JJ50CP5AWg@k]KZ7Ag3
+!i10b 1
+Ahardware
+R1
+R2
+DEx4 work 10 flipflop_d 0 22 b;m@]=fBM_W:I[:[CmA_=1
+l26
+L24
+V8^:B7nKR4<Sk5S=UFI3^U1
+!s100 Jm1CVHAXZVm>lMG?6B]DG1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Eflipflop_d_tb
+Z12 w1588650669
+R1
+R2
+R3
+Z13 8C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D_tb.vhd
+Z14 FC:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D_tb.vhd
+l0
+L4
+V?UnffaGNYa6R8=UKSbKiN2
+!s100 ]4LIRaWXZ0eOQY__8B72V3
+R6
+32
+!i10b 1
+Z15 !s108 1588650704.624000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D_tb.vhd|
+Z17 !s107 C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/GHDL/flipflop D/flipflop_D_tb.vhd|
+R10
+R11
+Atest
+R1
+R2
+Z18 DEx4 work 13 flipflop_d_tb 0 22 ?UnffaGNYa6R8=UKSbKiN2
+l31
+L8
+Z19 VP>B3IYJRGMZ4R<bWVbFOd2
+Z20 !s100 BN`cOzA3jh`Uhf>CU^O2k0
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/TESTING PROJECTS/contador_rampa/contador_rampa.srcs/sources_1/new/dente_serra.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dente_serra
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/TESTING PROJECTS/contador_rampa/contador_rampa.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

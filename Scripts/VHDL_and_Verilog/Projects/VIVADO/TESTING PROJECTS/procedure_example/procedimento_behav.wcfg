@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="procedimento_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="procedimento" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1999995458fs"></ZoomStartTime>
+      <ZoomEndTime time="2000000909fs"></ZoomEndTime>
+      <Cursor1Time time="1999998000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/procedimento/a_i" type="other">
+      <obj_property name="ElementShortName">a_i</obj_property>
+      <obj_property name="ObjectShortName">a_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procedimento/b_i" type="other">
+      <obj_property name="ElementShortName">b_i</obj_property>
+      <obj_property name="ObjectShortName">b_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procedimento/c_i" type="other">
+      <obj_property name="ElementShortName">c_i</obj_property>
+      <obj_property name="ObjectShortName">c_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procedimento/som_con" type="other">
+      <obj_property name="ElementShortName">som_con</obj_property>
+      <obj_property name="ObjectShortName">som_con</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procedimento/sub_con" type="other">
+      <obj_property name="ElementShortName">sub_con</obj_property>
+      <obj_property name="ObjectShortName">sub_con</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
