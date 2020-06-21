@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../miscircuitos_calculos.srcs/sources_1/new/sinus_gen.v" \
+"../../../../miscircuitos_calculos.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../miscircuitos_calculos.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

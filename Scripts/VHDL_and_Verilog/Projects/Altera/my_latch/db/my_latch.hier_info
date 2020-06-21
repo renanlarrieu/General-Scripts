@@ -1,0 +1,7 @@
+|my_latch
+S => notQ.IN1
+R => Q.IN1
+Q <> Q
+Qn <= notQ.DB_MAX_OUTPUT_PORT_TYPE
+
+

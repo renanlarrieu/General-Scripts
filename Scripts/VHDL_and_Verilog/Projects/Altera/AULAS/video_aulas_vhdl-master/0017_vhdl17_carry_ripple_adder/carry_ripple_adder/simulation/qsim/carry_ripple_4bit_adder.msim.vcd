@@ -1,0 +1,473 @@
+$comment
+	File created using the following command:
+		vcd file carry_ripple_4bit_adder.msim.vcd -direction
+$end
+$date
+	Tue Sep 24 08:44:23 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module carry_ripple_4bit_adder_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 1 # CARRY_IN $end
+$var wire 1 $ CARRY_OUT $end
+$var wire 1 % S [3] $end
+$var wire 1 & S [2] $end
+$var wire 1 ' S [1] $end
+$var wire 1 ( S [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / S[0]~output_o $end
+$var wire 1 0 S[1]~output_o $end
+$var wire 1 1 S[2]~output_o $end
+$var wire 1 2 S[3]~output_o $end
+$var wire 1 3 CARRY_OUT~output_o $end
+$var wire 1 4 CARRY_IN~input_o $end
+$var wire 1 5 A[0]~input_o $end
+$var wire 1 6 B[0]~input_o $end
+$var wire 1 7 FA1|ha2|SUM~combout $end
+$var wire 1 8 A[1]~input_o $end
+$var wire 1 9 B[1]~input_o $end
+$var wire 1 : FA2|ha2|SUM~combout $end
+$var wire 1 ; FA2|CARRY~combout $end
+$var wire 1 < A[2]~input_o $end
+$var wire 1 = B[2]~input_o $end
+$var wire 1 > FA3|ha2|SUM~combout $end
+$var wire 1 ? A[3]~input_o $end
+$var wire 1 @ B[3]~input_o $end
+$var wire 1 A FA4|ha2|SUM~combout $end
+$var wire 1 B FA4|CARRY~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 !
+b1100 "
+1#
+1$
+0(
+0'
+0&
+1%
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+12
+13
+14
+15
+06
+07
+18
+09
+0:
+1;
+0<
+1=
+0>
+1?
+1@
+1A
+1B
+$end
+#50000
+b1111 !
+b100 "
+b0 "
+b10 "
+0#
+19
+0=
+0@
+1<
+04
+17
+0A
+02
+1/
+1(
+0%
+#100000
+b111 !
+b11 "
+b11 !
+b1011 "
+b1111 "
+b1101 "
+1#
+16
+09
+1=
+1@
+0<
+0?
+14
+#150000
+b10 !
+b1100 "
+b110 !
+b100 "
+0#
+06
+0@
+05
+1<
+04
+0;
+1:
+07
+0B
+1A
+1>
+11
+12
+03
+0/
+10
+1'
+0(
+0$
+1%
+1&
+0>
+01
+0&
+#200000
+b100 !
+b0 "
+b101 !
+b1000 "
+0=
+1@
+15
+08
+0:
+17
+1>
+11
+1/
+00
+0'
+1(
+1&
+#250000
+b1010 "
+b1011 "
+b1 !
+1#
+b11 !
+b10 !
+b11 "
+05
+18
+0<
+16
+19
+0@
+14
+1;
+1:
+07
+0A
+0>
+01
+02
+0/
+10
+1'
+0(
+0%
+0&
+1>
+11
+1&
+#300000
+b10 "
+b110 !
+b100 !
+b101 !
+15
+08
+1<
+06
+0:
+1A
+0>
+01
+12
+00
+0'
+1%
+0&
+#350000
+b1101 !
+b110 "
+b100 "
+0#
+b101 "
+16
+09
+1=
+1?
+04
+0;
+1:
+1B
+0A
+1>
+11
+02
+13
+10
+1'
+1$
+0%
+1&
+0>
+01
+0&
+#400000
+b101 !
+1#
+b100 "
+14
+06
+0?
+0B
+1A
+12
+03
+0$
+1%
+#450000
+b1100 "
+b1101 !
+1?
+1@
+1B
+13
+1$
+#500000
+b1001 !
+b1011 !
+b1010 !
+b1000 "
+b1001 "
+b1 "
+b10 !
+16
+0=
+0@
+05
+18
+0<
+0?
+1;
+0B
+0A
+0:
+00
+02
+03
+0$
+0%
+0'
+1>
+11
+1&
+#550000
+0#
+b110 !
+b111 !
+b0 "
+b1000 "
+b1111 !
+04
+06
+1@
+15
+1<
+1?
+0;
+1B
+1A
+0>
+1:
+17
+1/
+10
+01
+12
+13
+1$
+1%
+0&
+1'
+1(
+0A
+1>
+11
+02
+0%
+1&
+#600000
+b1010 "
+b1110 !
+b10 "
+b110 !
+05
+0?
+19
+0@
+1;
+0B
+0:
+07
+0/
+00
+03
+0$
+0'
+0(
+1A
+0>
+01
+12
+1%
+0&
+#650000
+b110 "
+b111 !
+b1111 !
+15
+1?
+1=
+1B
+0A
+1>
+17
+1/
+11
+02
+13
+1$
+0%
+1&
+1(
+#700000
+1#
+b1011 !
+b111 "
+b1111 "
+b1011 "
+b1010 !
+b10 !
+14
+16
+0=
+1@
+05
+0<
+0?
+0B
+1A
+1:
+07
+0/
+10
+12
+03
+0$
+1%
+1'
+0(
+#750000
+b0 !
+0#
+08
+04
+0;
+17
+1/
+1(
+0>
+01
+0&
+#800000
+b1001 "
+b1000 !
+1#
+1?
+09
+14
+07
+1B
+0A
+02
+13
+0/
+0(
+1$
+0%
+#850000
+b1 "
+b1010 !
+18
+0@
+1;
+0B
+1A
+0:
+00
+12
+03
+0$
+1%
+0'
+1>
+11
+1&
+#900000
+b0 "
+b1011 !
+b10 "
+0#
+15
+06
+19
+04
+17
+1/
+1(
+#950000
+b11 !
+b1010 "
+b1011 "
+b1001 "
+16
+09
+1@
+0?
+07
+0/
+0(
+#1000000

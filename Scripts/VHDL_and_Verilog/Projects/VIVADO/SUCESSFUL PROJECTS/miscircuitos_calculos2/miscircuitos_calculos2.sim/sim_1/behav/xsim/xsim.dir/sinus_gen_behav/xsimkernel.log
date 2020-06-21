@@ -1,0 +1,7 @@
+Running: xsim.dir/sinus_gen_behav/xsimk.exe -simmode gui -wdb sinus_gen_behav.wdb -simrunnum 0 -socket 59770
+Design successfully loaded
+Design Loading Memory Usage: 5232 KB (Peak: 5232 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6080 KB (Peak: 6080 KB)
+Simulation CPU Usage: 124 ms
