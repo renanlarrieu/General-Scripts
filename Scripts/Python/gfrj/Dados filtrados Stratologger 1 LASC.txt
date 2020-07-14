@@ -1,17 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 13 23:01:26 2020
-
-@author: Renan Larrieu
-
-Stratologger 1 data 
-"""
-import matplotlib.pyplot as plt
-import matplotlib.ticker as tck
-import scipy.interpolate
-import numpy as np
-import math
-
+#Dados adquiridos pelo Stratologger na LASC Filtrados
+#temperatura em fahrenheit 
+#medição não confiável!!!!
 temperaturas = [94.4,
 94.4,
 94.4,
@@ -5796,7 +5785,9 @@ altura_em_pes = [0,   # em pés
 20,
 ]
 
-tempo=[0.00, #em segundo
+#tempo em segundos
+
+tempo=[0.00, 
        
 0.05,
 0.10,
@@ -7643,44 +7634,3 @@ tempo=[0.00, #em segundo
 92.15,
 92.20,
 92.25]
-
-a=0.040 # [K/m]
-
-do=1.2250 #kg.m^-3
-
-To=201.92
-
-t_k=[]
-#T=To-a*z[i]
-
-dz=[]
-altura_em_metros =[]
-z=altura_em_metros
-
-for i in range(0, altura_em_pes.index(max(altura_em_pes)),1):
-    altura_em_metros.append(altura_em_pes[i]*0.3048)
-    
-for i in range(0,altura_em_pes.index(max(altura_em_pes)),1):
-    t_k.append((((temperaturas[i]-32.0)*0.555)+273.15))
-
-for i in range (0, altura_em_pes.index(max(altura_em_pes)) ,1):
-    dz.append(do*math.exp(-(a*z[i])/t_k[i]))
-
-
-fig1 = plt.gcf() #cria a figura    
-plt.rcParams['figure.figsize'] = (20,12) #tamanho do gráfico
-fig1, ax = plt.subplots() #anexa os subplots na figura
-ax.yaxis.set_minor_locator(tck.AutoMinorLocator())
-
-
-#------------------------------------------------------
-plt.title('Densidade do ar X altitude - Voo ATOM II LASC')#,' Força [N] x Tempo [S]') #título do grafico
-plt.xlabel('Altitude [m]')
-plt.ylabel('Densidade do ar')
-#plt.xlabel('Tempo [s]') #nome do eixo x
-#plt.ylabel('Força [N]') #nome do eixo y
-plt.plot(dz, z, color='red', linestyle = '-') #dois graficos em 1
-#plt.scatter(x, y, color='red', marker = '*')#, s= z) #dois graficos em 1
-#plt.fill_between(dz,0,z, color = 'blue') #pinta a área sob a curva
-plt.grid(True, which='both')
-plt.show() #plota

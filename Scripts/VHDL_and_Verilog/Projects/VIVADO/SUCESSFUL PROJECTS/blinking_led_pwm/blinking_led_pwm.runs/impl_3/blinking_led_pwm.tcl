@@ -60,21 +60,23 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z020clg484-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.xpr} [current_project]
+  set_property ip_repo_paths {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/LOGIC_SIGNAL_IP}} [current_project]
+  update_ip_catalog
+  set_property ip_output_repo {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.runs/synth_3/blinking_led_pwm.dcp}}
-  read_xdc {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc}}
+  add_files -quiet {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.runs/synth_3/blinking_led_pwm.dcp}}
+  read_xdc {{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc}}
   link_design -top blinking_led_pwm -part xc7z020clg484-1
   close_msg_db -file init_design.pb
 } RESULT]

@@ -1,8 +1,8 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc} rfile:../../../blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc} rfile:../../../blinking_led_pwm.srcs/constrs_1/new/CONSTRAINT_TO_BLINK_LED_WITH_CLK.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN Y9 IOSTANDARD LVCMOS33} [get_ports GCLK]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
-create_clock -add -name sys_clk_pin -period 1000000000.00 -waveform {500000000 1000000000} [get_ports{GCLK}];
+create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 10} [get_ports{GCLK}];
 set_property src_info {type:XDC file:1 line:35 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T22 [get_ports LD0]
 set_property src_info {type:XDC file:1 line:36 export:INPUT save:INPUT read:READ} [current_design]

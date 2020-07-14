@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.runs/synth_3'
+HD_PWD='C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/blinking_led_pwm/blinking_led_pwm.runs/synth_3'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
