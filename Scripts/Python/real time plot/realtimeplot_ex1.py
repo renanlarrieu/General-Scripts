@@ -10,6 +10,7 @@ import random
 from itertools import count
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+import numpy as np
 
 plt.style.use('fivethirtyeight')
 
@@ -19,12 +20,11 @@ y_values = []
 
 index = count()
 
-for i in range (0,100,1):
-    y_values.append(random.randint(0,10))
+
 
 def animate(i):
     x_values.append(next(index))
-    #y_values.append(random.randint(0, 5))
+    y_values.append(np.sin(random.randint(0,1))+random.randint(-4,2))
     plt.cla()
     plt.plot(x_values, y_values)
 
