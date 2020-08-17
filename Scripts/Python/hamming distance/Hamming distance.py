@@ -10,14 +10,14 @@ s2=[]
 for i in range (0,número_de_bits,1):
     s1.append(i)
 for i in range (0,número_de_bits,1):
-    s2.append(i)    
+    s2.append(i)
 for i in range(0,número_de_bits,1):
     s1[i] = int(input('Digite o bit do PRIMEIRO vetor :'))
-print('\n')    
-print('-------------------------------------------------------------------------\n')    
-for i in range(0,número_de_bits,1):    
-    s2[i] = int(input('Digite o bit do SEGUNDO vetor :')) 
-                 
+print('\n')
+print('-------------------------------------------------------------------------\n')
+for i in range(0,número_de_bits,1):
+    s2[i] = int(input('Digite o bit do SEGUNDO vetor :'))
+
 
 def hamming_distance(s1, s2):
     assert len(s1) == len(s2)
