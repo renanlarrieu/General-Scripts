@@ -4,18 +4,18 @@ Created on Tue Apr 28 02:56:45 2020
 
 @author: Renan
 """
-número_de_bits = int(input('Digite o número de bits :'))
+numero_de_bits = int(input('Digite o número de bits :'))
 s1=[]
 s2=[]
-for i in range (0,número_de_bits,1):
+for i in range ( 0, numero_de_bits, 1):
     s1.append(i)
-for i in range (0,número_de_bits,1):
+for i in range (0, numero_de_bits, 1):
     s2.append(i)
-for i in range(0,número_de_bits,1):
+for i in range(0, numero_de_bits,1):
     s1[i] = int(input('Digite o bit do PRIMEIRO vetor :'))
 print('\n')
 print('-------------------------------------------------------------------------\n')
-for i in range(0,número_de_bits,1):
+for i in range(0,numero_de_bits,1):
     s2[i] = int(input('Digite o bit do SEGUNDO vetor :'))
 
 
