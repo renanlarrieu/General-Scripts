@@ -7,7 +7,7 @@ Created on Mon May 18 22:48:05 2020
 import os
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
-import scipy.interpolate
+#import scipy.interpolate
 import numpy as np
 #teste serie de taylor para seno
 

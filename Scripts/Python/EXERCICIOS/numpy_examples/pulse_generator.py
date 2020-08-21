@@ -9,7 +9,7 @@ from scipy import signal
 import os
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
-import scipy.interpolate
+#import scipy.interpolate
 import numpy as np
 
 
