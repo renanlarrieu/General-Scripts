@@ -3,6 +3,8 @@
 #include <time.h>
 #define e 2.71828
 using namespace std;
+void srand();
+
 
 // To find closest integer of num.
 int roundNo(float num)
