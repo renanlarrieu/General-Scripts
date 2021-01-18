@@ -1,7 +1,0 @@
-Running: xsim.dir/testebench_blink_pwm_behav/xsimk.exe -simmode gui -wdb testebench_blink_pwm_behav.wdb -simrunnum 0 -socket 54861
-Design successfully loaded
-Design Loading Memory Usage: 5200 KB (Peak: 5200 KB)
-Design Loading CPU Usage: 31 ms
-Simulation completed
-Simulation Memory Usage: 5836 KB (Peak: 5836 KB)
-Simulation CPU Usage: 61 ms

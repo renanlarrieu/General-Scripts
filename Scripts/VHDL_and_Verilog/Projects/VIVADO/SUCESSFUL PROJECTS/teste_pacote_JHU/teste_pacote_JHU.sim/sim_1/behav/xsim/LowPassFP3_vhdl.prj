@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../teste_pacote_JHU.srcs/sources_1/new/testar_pacote_JHU.vhd" \
-
-# Do not sort compile order
-nosort

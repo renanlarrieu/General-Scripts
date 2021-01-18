@@ -1,1 +1,0 @@
--wto "7d1e4225812548368c1c4c16a96eaf16" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "sine_dds_behav" "xil_defaultlib.sine_dds" "xil_defaultlib.glbl" -log "elaborate.log" 

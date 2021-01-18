@@ -1,1 +1,0 @@
--wto "b48cf7420e8d468a8b63e929b8259abd" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "pacotes_behav" "xil_defaultlib.pacotes" -log "elaborate.log" 

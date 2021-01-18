@@ -1,3 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SINE_WAVE_AGORA_VAI/SINE_WAVE_AGORA_VAI.srcs/sources_1/imports/Desktop/singen.vhd" into library xil_defaultlib
-ERROR: [VRFC 10-1412] syntax error near SIN_GEN [C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SINE_WAVE_AGORA_VAI/SINE_WAVE_AGORA_VAI.srcs/sources_1/imports/Desktop/singen.vhd:4]
-INFO: [VRFC 10-3070] VHDL file 'C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL PROJECTS/VIVADO/SINE_WAVE_AGORA_VAI/SINE_WAVE_AGORA_VAI.srcs/sources_1/imports/Desktop/singen.vhd' ignored due to errors

@@ -1,1 +1,0 @@
-# verba-doada-para-covid-19

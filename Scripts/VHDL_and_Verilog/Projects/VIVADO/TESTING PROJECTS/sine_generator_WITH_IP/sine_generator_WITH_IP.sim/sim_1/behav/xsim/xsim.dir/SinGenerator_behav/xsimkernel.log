@@ -1,7 +1,0 @@
-Running: xsim.dir/SinGenerator_behav/xsimk.exe -simmode gui -wdb SinGenerator_behav.wdb -simrunnum 0 -socket 50864
-Design successfully loaded
-Design Loading Memory Usage: 5700 KB (Peak: 5700 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 6772 KB (Peak: 6772 KB)
-Simulation CPU Usage: 62 ms

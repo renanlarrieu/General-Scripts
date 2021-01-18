@@ -1,1 +1,0 @@
--wto "2021fd5417c64884b0d054313c27687f" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "testar_pacote_JHU_behav" "xil_defaultlib.testar_pacote_JHU" -log "elaborate.log" 

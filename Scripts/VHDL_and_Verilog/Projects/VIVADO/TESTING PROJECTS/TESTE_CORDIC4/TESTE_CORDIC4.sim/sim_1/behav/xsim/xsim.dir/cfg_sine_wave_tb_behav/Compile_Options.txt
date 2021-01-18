@@ -1,1 +1,0 @@
--wto "cf80e221c64d40ab84a77a65b9fe24d4" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "cfg_sine_wave_tb_behav" "xil_defaultlib.cfg_sine_wave_tb" -log "elaborate.log" 

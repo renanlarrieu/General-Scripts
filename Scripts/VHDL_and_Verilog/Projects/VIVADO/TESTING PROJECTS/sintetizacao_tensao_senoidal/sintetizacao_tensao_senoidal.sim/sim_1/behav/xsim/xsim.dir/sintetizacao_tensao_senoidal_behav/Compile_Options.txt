@@ -1,1 +1,0 @@
--wto "cf176852e75f48fa93e5e2cf8a3ead93" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "sintetizacao_tensao_senoidal_behav" "xil_defaultlib.sintetizacao_tensao_senoidal" -log "elaborate.log" 

@@ -1,8 +1,0 @@
-Vivado Simulator 2018.3
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b3ef6060aa0d4c48a5d00ef37daf6714 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [VRFC 10-2063] Module <design_1_sim_clk_gen_0_0> not found while processing module instance <sim_clk_gen_0> [C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/miscircuitos_calculos/miscircuitos_calculos.ip_user_files/bd/design_1/sim/design_1.v:18]
-ERROR: [VRFC 10-2063] Module <design_1_sinus_gen_0_0> not found while processing module instance <sinus_gen_0> [C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL_and_Verilog/Projects/VIVADO/SUCESSFUL PROJECTS/miscircuitos_calculos/miscircuitos_calculos.ip_user_files/bd/design_1/sim/design_1.v:20]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

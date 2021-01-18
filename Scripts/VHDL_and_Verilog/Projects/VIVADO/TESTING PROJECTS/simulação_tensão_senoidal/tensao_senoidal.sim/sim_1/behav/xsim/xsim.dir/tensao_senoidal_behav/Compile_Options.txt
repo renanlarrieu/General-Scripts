@@ -1,1 +1,0 @@
--wto "e58011a02a3b409785de29f18d98be40" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tensao_senoidal_behav" "xil_defaultlib.tensao_senoidal" -log "elaborate.log" 

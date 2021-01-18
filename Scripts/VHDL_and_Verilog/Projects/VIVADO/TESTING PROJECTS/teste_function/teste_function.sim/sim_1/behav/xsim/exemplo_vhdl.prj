@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../teste_function.srcs/sources_1/new/exemplo.vhd" \
-
-# Do not sort compile order
-nosort

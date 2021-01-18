@@ -1,3 +1,0 @@
-Breakpoint File Version 1.0
-20 true C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VIVADO/flipflopd/flipflopd.srcs/sources_1/new/flipflopd.vhd
-22 true C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VIVADO/flipflopd/flipflopd.srcs/sources_1/new/flipflopd.vhd

@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../../../VHDL LIBRARY/Floating_Point_Library-JHU-master/FloatPt.vhd" \
-"../../../../../../../VHDL LIBRARY/Floating_Point_Library-JHU-master/LowPassFP3.vhd" \
-
-# Do not sort compile order
-nosort

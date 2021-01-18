@@ -1,5 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/fplibrary-0.94/vhdl/misc/pkg_misc.vhd" into library xil_defaultlib
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpmul/pkg_fpmul.vhd" into library xil_defaultlib
-ERROR: [VRFC 10-2987] 'pkg_misc' is not compiled in library 'fplib' [C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpmul/pkg_fpmul.vhd:23]
-ERROR: [VRFC 10-3782] unit 'pkg_fpmul' ignored due to previous errors [C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpmul/pkg_fpmul.vhd:25]
-INFO: [VRFC 10-3070] VHDL file 'C:/Users/Renan/Documents/GitHub/Shared-Scripts/Scripts/VHDL/VHDL LIBRARY/fplibrary-0.94/vhdl/fp/pkg_fpmul/pkg_fpmul.vhd' ignored due to errors

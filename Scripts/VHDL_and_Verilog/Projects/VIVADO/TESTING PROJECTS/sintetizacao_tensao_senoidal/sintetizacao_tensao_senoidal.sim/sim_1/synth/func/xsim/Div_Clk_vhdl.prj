@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"Div_Clk_func_synth.vhd" \
-
-# Do not sort compile order
-nosort
